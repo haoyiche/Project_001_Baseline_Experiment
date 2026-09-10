@@ -1,0 +1,10 @@
+===============================
+Experiment Results
+===============================
+Time: 2026-09-10 15:51:24.995962
+
+experiment: EXP002_Ablation_epochs50
+learning_rate: 0.001
+batch_size: 32
+epochs: 50
+score: 100

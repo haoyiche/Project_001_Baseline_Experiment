@@ -60,6 +60,14 @@ if __name__ == "__main__":
     for key, value in results.items():
         print(f"{key}: {value}")
 
-    save_results(results, "results/exp001_results.txt")
+    result_path = (
+    f"results/{results['experiment']}_result.txt"
+)
+
+
+    save_results(
+        results,
+        result_path
+    )
 
     print("\nResults saved!")
