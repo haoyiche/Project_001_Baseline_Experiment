@@ -14,12 +14,11 @@ def pixel_to_camera(u,v,depth,fx,fy,cx,cy):
 
 if __name__ == "__main__":
 
+    fx = 615.3
+    fy = 661.1
 
-    fx = 600
-    fy = 600
-
-    cx = 320
-    cy = 240
+    cx = 320.4
+    cy = 239.8
 
     u = 350
     v = 260
