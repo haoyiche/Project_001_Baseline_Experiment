@@ -72,3 +72,19 @@ score发生变化。
 完成第一次Ablation实验。
 
 验证控制变量实验流程。
+
+## Result保存
+
+实验结果自动保存：
+
+EXP001:
+
+results/EXP001_Baseline_result.txt
+
+
+EXP002:
+
+results/EXP002_Ablation_epochs50_result.txt
+
+
+避免不同实验结果互相覆盖。
