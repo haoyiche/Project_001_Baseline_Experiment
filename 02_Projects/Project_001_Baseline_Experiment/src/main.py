@@ -1,4 +1,5 @@
 import yaml
+import sys
 from datetime import datetime
 def load_config(config_path):
     with open(config_path, 'r',encoding = "utf-8") as file:
@@ -17,6 +18,18 @@ def run_experiment(config):
     print("learning_rate:", config['learning_rate'])
     print("batch_size:", config['batch_size'])
     print("epochs:", config['epochs'])
+
+    results["experiment"] = config["experiment_name"]
+
+    results["learning_rate"] = config["learning_rate"]
+
+    results["batch_size"] = config["batch_size"]
+
+    results["epochs"] = config["epochs"]
+
+
+    # 模拟实验指标
+    results["score"] = config["epochs"] * 2
     return results
 
 
@@ -32,7 +45,9 @@ def save_results(results, path):
 
 
 if __name__ == "__main__":
-    config = load_config("configs/exp001_config.yaml")
+    config_path = sys.argv[1]
+
+    config = load_config(config_path)
 
     results = run_experiment(config)
 
