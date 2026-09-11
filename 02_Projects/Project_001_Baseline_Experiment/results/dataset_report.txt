@@ -1,0 +1,58 @@
+====================
+Dataset Audit Report
+====================
+Total images: 6612
+Image sizes: [(900, 900), (900, 900), (900, 900), (900, 900), (900, 900)]
+Channel distribution: {'L': 2471, 'RGB': 4141}
+  L: 2471
+  RGB: 4141
+Class distribution: {'broken_large': 40, 'broken_small': 44, 'contamination': 84, 'good': 4096, 'bent_wire': 26, 'cable_swap': 24, 'combined': 110, 'cut_inner_insulation': 28, 'cut_outer_insulation': 20, 'missing_cable': 24, 'missing_wire': 20, 'poke_insulation': 20, 'crack': 168, 'faulty_imprint': 82, 'poke': 78, 'scratch': 182, 'squeeze': 40, 'color': 186, 'cut': 106, 'hole': 90, 'metal_contamination': 56, 'thread': 60, 'bent': 74, 'broken': 24, 'glue': 60, 'print': 34, 'fold': 34, 'flip': 46, 'pill_type': 18, 'manipulated_front': 48, 'scratch_head': 48, 'scratch_neck': 50, 'thread_side': 46, 'thread_top': 46, 'glue_strip': 36, 'gray_stroke': 32, 'oil': 36, 'rough': 64, 'defective': 60, 'bent_lead': 20, 'cut_lead': 20, 'damaged_case': 20, 'misplaced': 20, 'liquid': 20, 'broken_teeth': 38, 'fabric_border': 34, 'fabric_interior': 32, 'split_teeth': 36, 'squeezed_teeth': 32}
+  broken_large: 40
+  broken_small: 44
+  contamination: 84
+  good: 4096
+  bent_wire: 26
+  cable_swap: 24
+  combined: 110
+  cut_inner_insulation: 28
+  cut_outer_insulation: 20
+  missing_cable: 24
+  missing_wire: 20
+  poke_insulation: 20
+  crack: 168
+  faulty_imprint: 82
+  poke: 78
+  scratch: 182
+  squeeze: 40
+  color: 186
+  cut: 106
+  hole: 90
+  metal_contamination: 56
+  thread: 60
+  bent: 74
+  broken: 24
+  glue: 60
+  print: 34
+  fold: 34
+  flip: 46
+  pill_type: 18
+  manipulated_front: 48
+  scratch_head: 48
+  scratch_neck: 50
+  thread_side: 46
+  thread_top: 46
+  glue_strip: 36
+  gray_stroke: 32
+  oil: 36
+  rough: 64
+  defective: 60
+  bent_lead: 20
+  cut_lead: 20
+  damaged_case: 20
+  misplaced: 20
+  liquid: 20
+  broken_teeth: 38
+  fabric_border: 34
+  fabric_interior: 32
+  split_teeth: 36
+  squeezed_teeth: 32
