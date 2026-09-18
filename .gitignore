@@ -33,3 +33,5 @@ runs/
 # 系统文件
 .DS_Store
 Thumbs.db
+# Project_001 raw dataset - local only
+/02_Projects/Project_001_Baseline_Experiment/data/raw/
