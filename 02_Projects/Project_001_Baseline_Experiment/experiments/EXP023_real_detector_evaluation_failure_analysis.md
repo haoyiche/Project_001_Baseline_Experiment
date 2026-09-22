@@ -9,7 +9,7 @@
 - **评估子集**：固定 500 张，`seed=42`
 - **设备**：RTX 2060 Max-Q
 - **训练**：无训练，仅推理与评估
-- **当前状态**：EXP023 实验阶段完成；待通关测试、Git commit、GitHub push
+- **当前状态**：EXP023 COMPLETE；实验、理解验收、独立通关测试、Git commit 与 GitHub push 均完成。
 
 本实验的目标不是“跑出一个 mAP 数字”，而是把已有的 TP / FP / FN、Precision / Recall / IoU、NMS、AP / mAP 理论连接到真实 detector 评估流程，并通过主动修改参数验证其行为。
 
@@ -1260,24 +1260,17 @@ Top-5 failure modes                  PASS
 原因验证 >= 2                        PASS
 正式实验笔记                         PASS
 
-独立通关测试                         PENDING
-Git commit                           PENDING
-GitHub push                          PENDING
+独立通关测试                         PASS
+Git commit                           PASS
+GitHub push                          PASS
 ```
 
 因此：
 
 ```text
-EXP023 = CONTINUE
+EXP023 = COMPLETE
 ```
 
-还不能标记 COMPLETE，剩余：
-
-```text
-独立通关测试
-→ Git commit
-→ GitHub push
-```
 
 ---
 
