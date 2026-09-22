@@ -1,0 +1,6 @@
+failure_type,count
+background_fp,8820
+localization_error,3416
+classification_error,1069
+missed_gt,497
+duplicate_detection,342

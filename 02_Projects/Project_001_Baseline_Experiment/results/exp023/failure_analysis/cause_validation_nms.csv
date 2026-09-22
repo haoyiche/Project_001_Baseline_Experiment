@@ -1,0 +1,5 @@
+variant,slice,total_gt,missed_gt,miss_rate
+baseline,overlapping_same_class_gt,831,97,0.11672683513838748
+baseline,other_gt,2968,400,0.1347708894878706
+nms030,overlapping_same_class_gt,831,159,0.19133574007220217
+nms030,other_gt,2968,481,0.16206199460916443
