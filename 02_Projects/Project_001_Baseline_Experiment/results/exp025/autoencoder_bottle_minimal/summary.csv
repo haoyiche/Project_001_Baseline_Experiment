@@ -1,0 +1,2 @@
+seed,image_size,epochs,batch_size,lr,num_images,mean_pixel_auroc,mean_pixel_ap,global_pixel_auroc,global_pixel_ap
+42,224,20,8,0.001,22,0.8039545460541675,0.19621835179150035,0.7971807931700626,0.19078556950074643

@@ -1,0 +1,2 @@
+num_images,mean_gradient_mean_ratio,median_gradient_mean_ratio,mean_fp_in_top10_gradient,mean_top10_gradient_enrichment
+22,2.8938791210001167,2.928499937057495,0.3320404381333092,3.3204043813330912
