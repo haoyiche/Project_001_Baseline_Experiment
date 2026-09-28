@@ -1175,7 +1175,7 @@ EXP025 实验笔记                    PASS
 核心脚本语法检查                    PASS
 Selective Git Staging             PASS
 
-Git Commit                         PENDING
-GitHub Push                        PENDING
+Git Commit      PASS
+GitHub Push     PASS
 
-Level 1                            CONTINUE
+Level 1         LEVEL COMPLETE
