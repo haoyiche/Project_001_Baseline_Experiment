@@ -1,0 +1,6 @@
+query_id,query_categories,relevant_in_gallery,raw_relevant_top5,raw_precision_at_5,raw_hit_at_5,raw_recall_at_5,cosine_relevant_top5,cosine_precision_at_5,cosine_hit_at_5,cosine_recall_at_5
+97988,"['person', 'bicycle', 'bench']",42,3,0.6,1,0.07142857142857142,4,0.8,1,0.09523809523809523
+98018,"['spoon', 'bowl', 'vase']",8,1,0.2,1,0.125,1,0.2,1,0.125
+100274,"['car', 'train', 'truck']",15,3,0.6,1,0.2,4,0.8,1,0.26666666666666666
+102356,"['person', 'motorcycle']",43,5,1.0,1,0.11627906976744186,5,1.0,1,0.11627906976744186
+104803,['toilet'],1,0,0.0,0,0.0,0,0.0,0,0.0

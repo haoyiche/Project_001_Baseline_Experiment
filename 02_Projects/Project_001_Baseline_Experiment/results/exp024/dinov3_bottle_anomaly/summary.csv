@@ -1,0 +1,2 @@
+category,defect_type,test_image,num_train_good,patch_grid,memory_patches,embedding_dim,anomaly_min,anomaly_mean,anomaly_max,max_patch_row,max_patch_col,gt_positive_patches,max_patch_hits_gt,gt_positive_mean_score,gt_negative_mean_score,patch_auroc
+bottle,broken_small,000.png,209,14x14,40964,384,0.002225935459136963,0.006351844873279333,0.05171632766723633,8,4,4,True,0.035574525594711304,0.005743039306253195,1.0

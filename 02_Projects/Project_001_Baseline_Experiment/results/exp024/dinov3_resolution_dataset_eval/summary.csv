@@ -1,0 +1,2 @@
+num_images,mean_ap_224,mean_ap_448,mean_delta_ap,median_delta_ap,std_delta_ap,ap_448_wins,ap_ties,ap_448_losses,delta_ap_bootstrap_ci_low,delta_ap_bootstrap_ci_high,mean_auroc_224,mean_auroc_448,mean_delta_auroc,best_gain_image,best_delta_ap,worst_gain_image,worst_delta_ap
+22,0.8546346960315003,0.9517679208902589,0.09713322485875847,0.0822819366899662,0.09092731684048518,21,0,1,0.06717935702114886,0.14034505860502375,0.9952952515579934,0.998340878720245,0.003045627162251687,000.png,0.4554848651697907,013.png,-0.011231001431351029
